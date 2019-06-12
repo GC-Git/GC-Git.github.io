@@ -1,0 +1,64 @@
+body {
+  background: #F8f8f8;
+  font-family: 'Fira Code', monospace;
+  font-size: 22px;
+  color: #01161E;
+  padding: 2.5vh 5vw 2.5vh 5vw;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+#projectsSection > li h4 {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#projectsSection > li a {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#projectsSection > li p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#projectsSection > li .techList > li {
+  display: inline-block;
+  background-color: #A7C6DA;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 3px 10px 3px 10px;
+  color: #124559;
+}
+
+a {
+  color: #598392;
+}
+
+a:hover {
+  color: #A7C6DA;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+header h2 {
+  margin-bottom: 0em;
+}
+
+header sub {
+  font-size: 24px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
