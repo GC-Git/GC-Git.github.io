@@ -3,7 +3,7 @@ body {
   font-family: 'Fira Code', monospace;
   font-size: 22px;
   color: #01161E;
-  padding: 2.5vh 5vw 2.5vh 5vw;
+  padding: 0vh 5vw 2.5vh 5vw;
 }
 
 ul {
@@ -17,14 +17,15 @@ h3 {
 }
 
 #projectsSection > li h4 {
-  font-style: italic;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 #projectsSection > li a {
+  text-decoration: none;
   margin-top: 0.2em;
   margin-bottom: 0.2em;
+  margin-right: .75em;
 }
 
 #projectsSection > li p {
@@ -50,14 +51,10 @@ a:hover {
 }
 
 header h1 {
-  font-family: 'Pacifico', cursive;
-}
-
-header h2 {
   margin-bottom: 0em;
 }
 
-header sub {
+header p {
   font-size: 24px;
   font-weight: bold;
 }
